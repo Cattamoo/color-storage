@@ -1,0 +1,20 @@
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 100px;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.color {
+	width: 100%;
+	height: 100%;
+}
+
+.colorBlack {
+	color: black;
+}
+
+.colorWhite {
+	color: white;
+}
