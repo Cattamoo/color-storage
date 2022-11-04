@@ -20,8 +20,8 @@ export default function ColorList({ viewMode }) {
 		});
 	}
 	useEffect(() => {
-		const _colors = localStorage.getItem('colors') || [];
-		setColors(JSON.parse(_colors));
+		const _colors = localStorage.getItem('colors');
+		setColors(_colors != null ? JSON.parse(_colors) : []);
 	}, []);
 	return (
 		<>
