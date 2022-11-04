@@ -16,9 +16,20 @@
 	flex: 1;
 	height: 3rem;
 }
+.form input[type="text"] {
+	background-color: white;
+	height: 2.5rem;
+}
 .form button {
-	padding: 1rem;
-	background-color: skyblue;
+	padding: 0 1rem;
+	background-color: #333333;
+	color: white;
 	border-radius: .25rem;
-
+	height: 2.5rem;
+	cursor: pointer;
+	transition: .25s;
+}
+.form button:hover {
+	background-color: #111111;
+	color: #dddddd;
 }

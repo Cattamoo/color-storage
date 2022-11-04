@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	background-color: #222;
 }
 
 ul, li {
@@ -11,4 +12,5 @@ ul, li {
 * {
 	box-sizing: border-box;
 	text-align: center;
+	outline: 0;
 }

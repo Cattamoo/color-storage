@@ -3,7 +3,7 @@ import ColorList from "./components/ColorList/ColorList";
 import styles from './App.module.css';
 
 function App() {
-	const [viewMode, setViewMode] = useState('card'); // table | card
+	const [viewMode, setViewMode] = useState('table'); // table | card
 	return (
 		<div className={styles.container}>
 			<div className={styles.tab}>
