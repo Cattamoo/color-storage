@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './ColorInfo.module.css';
 
-export default function ColorInfo({ color, deleteColor }) {
+export default function ColorInfo({ viewMode, color, deleteColor }) {
 	const handleDelete = () => {
 		deleteColor(color);
 	}

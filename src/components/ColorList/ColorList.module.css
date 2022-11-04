@@ -1,0 +1,12 @@
+.list {
+	flex: 1;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-auto-rows: max-content;
+	gap: .25rem;
+	overflow: auto;
+}
+
+.list.card {
+	grid-template-columns: 1fr 1fr;
+}
