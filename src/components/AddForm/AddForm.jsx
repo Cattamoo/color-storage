@@ -21,10 +21,7 @@ export default function AddForm({ addColor }) {
 	return (
 		<form className={styles.form} onSubmit={handleSubmit}>
 			<input type='text' value={color} onChange={handleInput} />
-			<div
-				className={styles.preview}
-				style={{backgroundColor: color}}
-				onClick={(e) => e.target.firstChild?.click()}>
+			<div className={styles.preview} style={{backgroundColor: color}}>
 				<input type='color' value={color} onChange={handleInput} />
 			</div>
 			<button>Add</button>
