@@ -7,6 +7,10 @@
 	background-color: white;
 	border: 1px solid #dddddd;
 	overflow: hidden;
+	transition: border .25s;
+}
+.container:hover {
+	border: 1px solid #111111;
 }
 .container.table {
 	gap: .5rem;
