@@ -21,3 +21,8 @@ It's a process to make it like that.
 5. Register with Notion.
 
 Through this complicated process, I was able to make colors.
+
+
+![colorstorage1](https://user-images.githubusercontent.com/87294942/208135437-655d155b-f72a-4b5a-9082-30dafb144b0e.png)
+![colorstorage2](https://user-images.githubusercontent.com/87294942/208135439-d965a247-4f58-49ac-b85f-ca89a9e45fa3.png)
+![colorstorage3](https://user-images.githubusercontent.com/87294942/208135442-b8cdda8a-c9b3-44c8-add5-69b74359472a.png)
