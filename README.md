@@ -1,28 +1,23 @@
 # Color Storage 🎨
 
-I made this project because I felt uncomfortable while organizing the color in Notion.
+## 목표 🏆
 
-## How to use this app
+- 자주 사용하는 색상을 저장하는 웹 어플리케이션 구현
 
-The focus is on modifying it to make it easier to use from the existing method.
-If you select a color, I made it to have a color chip, text color, and background color of that color.
-So the way you use this app is by selecting the color. There's only one thing.
+## 사용 기술 🎛️
 
-## Before I made this app
+![React](https://img.shields.io/badge/-React-61dafb?style=flat-square&logo=react&logoColor=ffffff)
 
-I used Notion like this picture:
-<img alt="before color storage" src="https://user-images.githubusercontent.com/87294942/199770625-586aa7a2-8614-4835-930f-fc485c221fe5.png">
+## 기능 🛠️
 
-It's a process to make it like that.
-1. Select a color.
-2. Enter the color name in Notion.
-3. (Not shown in the picture) Write a formula that displays text colors and background colors.
-4. Make a color chip of that color using Photoshop.
-5. Register with Notion.
+- `Save` 원하는 색상을 입력(선택) 후 저장
+- `View` 저장된 색상을 Table 혹은 Card 형태에 맞게 표시
+- `Copy` 색상을 클릭하여 Hex 복사
 
-Through this complicated process, I was able to make colors.
-
+<div style="display: grid;grid-template-columns: repeat(3, 1fr)">
 
 ![colorstorage1](https://user-images.githubusercontent.com/87294942/208135437-655d155b-f72a-4b5a-9082-30dafb144b0e.png)
 ![colorstorage2](https://user-images.githubusercontent.com/87294942/208135439-d965a247-4f58-49ac-b85f-ca89a9e45fa3.png)
 ![colorstorage3](https://user-images.githubusercontent.com/87294942/208135442-b8cdda8a-c9b3-44c8-add5-69b74359472a.png)
+
+</div>
